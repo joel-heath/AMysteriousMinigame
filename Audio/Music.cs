@@ -4,6 +4,7 @@ internal static class Music
 {
     public static Song TitleTheme { get; } = new("Sneaky Snitch.mp3");
     public static Song KoolKats { get; } = new("Kool Kats.mp3");
+    public static Song Desert { get; } = new("Desert.mp3");
     public static Song TheComplex { get; } = new("The Complex.mp3");
     public static Song Now { get; } = new("Now.mp3");
     public static Song Lose { get; } = new("Climb Together Ending.mp3");

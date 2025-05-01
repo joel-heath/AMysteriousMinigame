@@ -45,7 +45,8 @@ internal class Program
                     won = await PlatformerGame.Play();
                     break;
                 case 1:
-                    await MusicPlayer.FadeIn(1000, 0.4);
+                    await MusicPlayer.Play(Music.Desert, 0.4, TimeSpan.FromMinutes(3) + TimeSpan.FromSeconds(47));
+
                     Console.Clear();
                     ConsoleUtils.Title("Use the arrow keys to escape the catacombs.", "Press any key to begin");
                     ConsoleUtils.ClearKeyBuffer();
